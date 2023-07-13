@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "vue": "^3.3.4",
-    "vue-router": "^4.2.2"
+    "vue-router": "^4.2.2",
+    "@hashgraph/proto": "^2.12.0",
+    "ethers": "^5.7.2"
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.1",
