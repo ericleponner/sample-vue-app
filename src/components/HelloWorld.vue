@@ -2,7 +2,8 @@
 
 
 import {computed} from "vue";
-import hashgraph from "@hashgraph/proto";
+import hashgraph from "@hashgraph/proto";   // <== this compiles but does not run
+// import hashgraph from "@hashgraph/proto/lib/proto"  // <== this is proposed by IJ code completion but rejected by tsc
 import {arrayify} from "ethers/lib/utils";
 
 defineProps<{
